@@ -31,8 +31,17 @@ comandos terminal:
 clear : faz a limpeza no terminal 
 ls : listar arquivos e pastas de onde você tiver
 cd : acessar uma pasta(tab completa o nome do arquivo)
-git ini : inicia um repository vazio na pasta
+git init : inicia um repository vazio na pasta
+
+git remote add origin git@github.com:lirdlu/git_config_basic.git (vincular repositorio a pasta)
 
 git status : verificar o status da branch(repository)
 
 git add . : adicionar toda a modificação a lista de commit 
+
+git commit -m "conteudo/modificação" : rotula as modificações
+
+git push -u origin main : enviando os arquivos para o repositório (primeiro commit)
+
+git push : forma de enviar as modificações após ter feito o primeiro commit
+
